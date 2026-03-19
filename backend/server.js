@@ -16,7 +16,7 @@ app.use("/api/projects", require("./routes/projectRoutes"));
 app.use("/api/tasks", require("./routes/taskRoutes"));
 
 // 👇 MongoDB
-mongoose.connect("YOUR_MONGODB_LINK")
+mongoose.connect("mongodb+srv://taskhive:coollasya22@cluster0.r3bjpnz.mongodb.net/taskhive")
 .then(() => console.log("DB Connected"))
 .catch(err => console.log(err));
 
