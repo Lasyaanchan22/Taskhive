@@ -1,4 +1,7 @@
-const express = require("express");
+
+app.get("/", (req, res) => {
+  res.send("Backend is working 🚀");
+});const express = require("express");
 const mongoose = require("mongoose");
 const cors = require("cors");
 
